@@ -5,18 +5,18 @@ class Config(object):
     SESSION_NAME = get_config("SESSION_NAME", "EncoderX") 
     # EncoderX_bot....
     # sucks Dude
-    APP_ID = int(get_config("APP_ID", "22403100"))
-    API_HASH = get_config("API_HASH", "ccbc3f662735abfa604ef6309ba76e67")
-    LOG_CHANNEL = get_config("LOG_CHANNEL", "-1002432275758")
+    APP_ID = int(get_config("APP_ID", "28244492"))
+    API_HASH = get_config("API_HASH", "38e4ce53faea889073f6f49e83cbc392")
+    LOG_CHANNEL = get_config("LOG_CHANNEL", "-1002206233283")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
-    AUTH_USERS = [7950514048]
+    AUTH_USERS = [1685470205]
 # array , simplest method was AUTH_USERS = [] ; AUTH_USERS.append(your telegram id) 🌹
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7998593449:AAHQ2CyDLJggadNj4-170S4ncPc5noIEDAo")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "799")
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "./downloads")
     # Telegram maximum file upload size
-    BOT_USERNAME = get_config("BOT_USERNAME", "Test_encBot")
+    BOT_USERNAME = get_config("BOT_USERNAME", "@Fast_comp_bot")
     MAX_FILE_SIZE = 4194304000
     TG_MAX_FILE_SIZE = 4194304000
     FREE_USER_MAX_FILE_SIZE = 4194304000
